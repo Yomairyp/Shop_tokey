@@ -24,7 +24,7 @@ import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
 import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
 
 // import Widget03 from '../../views/Widgets/Widget03'
-const Widget03 = lazy(() => import('../../views/Widgets/Widget03'));
+const Widget03 = lazy(() => import('../Widgets/Widget03'));
 const Loading = () => <div>Loading...</div>
 
 const brandPrimary = getStyle('--primary')
