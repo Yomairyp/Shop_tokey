@@ -1,235 +1,134 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
-      url: '/dashboard',
-      icon: 'icon-speedometer',
+      name: 'Home',
+      url: '/home',
+      icon: 'icon-home',
       badge: {
         variant: 'info',
         text: 'NEW',
       },
     },
+  
     {
-      title: true,
-      name: 'Theme',
-      wrapper: {            // optional wrapper object
-        element: '',        // required valid HTML5 element tag
-        attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
-      },
-      class: ''             // optional class names space delimited list for title item ex: "text-center"
-    },
-    {
-      name: 'Colors',
-      url: '/theme/colors',
-      icon: 'icon-drop',
-    },
-    {
-      name: 'Typography',
-      url: '/theme/typography',
-      icon: 'icon-pencil',
-    },
-    {
-      title: true,
-      name: 'Components',
-      wrapper: {
-        element: '',
-        attributes: {},
-      },
-    },
-    {
-      name: 'Base',
+      name: 'Orders',
       url: '/base',
-      icon: 'icon-puzzle',
+      icon: 'icon-basket-loaded',
       children: [
         {
-          name: 'Breadcrumbs',
-          url: '/base/breadcrumbs',
-          icon: 'icon-puzzle',
+          name: 'All Orders',
+          url: '/orders/orders',
         },
         {
-          name: 'Cards',
-          url: '/base/cards',
-          icon: 'icon-puzzle',
+          name: 'Drafts',
+          url: '/orders/cards',
         },
         {
-          name: 'Carousels',
+          name:'Pending checkouts',
           url: '/base/carousels',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Collapses',
-          url: '/base/collapses',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Dropdowns',
-          url: '/base/dropdowns',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Jumbotrons',
-          url: '/base/jumbotrons',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'List groups',
-          url: '/base/list-groups',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Navs',
-          url: '/base/navs',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Paginations',
-          url: '/base/paginations',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Popovers',
-          url: '/base/popovers',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Progress Bar',
-          url: '/base/progress-bar',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Switches',
-          url: '/base/switches',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Tables',
-          url: '/base/tables',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Tabs',
-          url: '/base/tabs',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Tooltips',
-          url: '/base/tooltips',
-          icon: 'icon-puzzle',
         },
       ],
     },
     {
-      name: 'Buttons',
+      name: 'Products',
       url: '/buttons',
       icon: 'icon-cursor',
       children: [
         {
-          name: 'Buttons',
+          name: 'Product 1',
           url: '/buttons/buttons',
-          icon: 'icon-cursor',
         },
         {
-          name: 'Button dropdowns',
+          name: 'Product 2',
           url: '/buttons/button-dropdowns',
-          icon: 'icon-cursor',
         },
         {
-          name: 'Button groups',
+          name: 'Product 3',
           url: '/buttons/button-groups',
-          icon: 'icon-cursor',
-        },
-        {
-          name: 'Brand Buttons',
-          url: '/buttons/brand-buttons',
-          icon: 'icon-cursor',
         },
       ],
     },
     {
-      name: 'Charts',
-      url: '/charts',
-      icon: 'icon-pie-chart',
-    },
-    {
-      name: 'Icons',
-      url: '/icons',
-      icon: 'icon-star',
+      name: 'Customer',
+      url: '/buttons',
+      icon: 'icon-cursor',
       children: [
         {
-          name: 'CoreUI Icons',
+          name: 'Customer 1',
+          url: '/buttons/buttons',
+        },
+        {
+          name: 'Customer 2',
+          url: '/buttons/button-dropdowns',
+        },
+        {
+          name: 'Customer 3',
+          url: '/buttons/button-groups',
+        },
+      ],
+    },
+   
+    {
+      
+      name: 'Analytics',
+      url: '/charts',
+      icon: 'icon-chart',
+      children: [
+        {
+          name: 'Dashboard',
           url: '/icons/coreui-icons',
-          icon: 'icon-star',
           badge: {
             variant: 'info',
             text: 'NEW',
           },
         },
         {
-          name: 'Flags',
+          name: 'Reports',
           url: '/icons/flags',
-          icon: 'icon-star',
         },
         {
-          name: 'Font Awesome',
+          name: 'Live Views',
           url: '/icons/font-awesome',
-          icon: 'icon-star',
           badge: {
             variant: 'secondary',
             text: '4.7',
           },
         },
-        {
-          name: 'Simple Line Icons',
-          url: '/icons/simple-line-icons',
-          icon: 'icon-star',
-        },
       ],
     },
     {
-      name: 'Notifications',
+      name: 'Marketing',
       url: '/notifications',
       icon: 'icon-bell',
-      children: [
-        {
-          name: 'Alerts',
-          url: '/notifications/alerts',
-          icon: 'icon-bell',
-        },
-        {
-          name: 'Badges',
-          url: '/notifications/badges',
-          icon: 'icon-bell',
-        },
-        {
-          name: 'Modals',
-          url: '/notifications/modals',
-          icon: 'icon-bell',
-        },
-      ],
+      
     },
     {
-      name: 'Widgets',
+      name: 'Discounts',
       url: '/widgets',
       icon: 'icon-calculator',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
+    
+      children: [
+        {
+          name: 'Codes',
+          url: '/notifications/alerts',
+        },
+        {
+          name: 'Automatic',
+          url: '/notifications/badges',
+          badge: {
+            variant: 'info',
+            text: 'NEW',
+          },
+        },
+        
+      ],
     },
     {
       divider: true,
     },
+  
     {
-      title: true,
-      name: 'Extras',
-    },
-    {
-      name: 'Pages',
+      name: 'Sale Channles',
       url: '/pages',
       icon: 'icon-star',
       children: [
@@ -256,25 +155,11 @@ export default {
       ],
     },
     {
-      name: 'Disabled',
+      name: 'Online Store',
       url: '/dashboard',
-      icon: 'icon-ban',
-      attributes: { disabled: true },
+      icon: 'icon-globe',
+      
     },
-    {
-      name: 'Download CoreUI',
-      url: 'https://coreui.io/react/',
-      icon: 'icon-cloud-download',
-      class: 'mt-auto',
-      variant: 'success',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
-    {
-      name: 'Try CoreUI PRO',
-      url: 'https://coreui.io/pro/react/',
-      icon: 'icon-layers',
-      variant: 'danger',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
+    
   ],
 };

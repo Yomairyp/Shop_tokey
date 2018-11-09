@@ -117,8 +117,8 @@ const Charts = Loadable({
   loading: Loading,
 });
 
-const Dashboard = Loadable({
-  loader: () => import('./views/Dashboard'),
+const Home = Loadable({
+  loader: () => import('./views/Home'),
   loading: Loading,
 });
 
@@ -187,7 +187,7 @@ const User = Loadable({
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
   { path: '/', exact: true, name: 'Home', component: DefaultLayout },
-  { path: '/dashboard', name: 'Dashboard', component: Dashboard },
+  { path: '/home', name: 'Home', component: Home },
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
