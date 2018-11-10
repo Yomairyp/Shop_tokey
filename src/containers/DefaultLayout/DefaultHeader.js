@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Badge, DropdownItem, DropdownMenu, DropdownToggle, Nav, NavItem, NavLink } from 'reactstrap';
+import { Badge, DropdownItem, DropdownMenu, DropdownToggle, Nav, NavItem, NavLink, InputGroup, InputGroupAddon, InputGroupText, Input, Button  } from 'reactstrap';
 import PropTypes from 'prop-types';
 
 import { AppAsideToggler, AppHeaderDropdown, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
@@ -35,9 +35,23 @@ class DefaultHeader extends Component {
             <NavLink href="#/users">Users</NavLink>
           </NavItem>
           <NavItem className="px-3">
-            <NavLink href="#">Settings</NavLink>
+            <NavLink href="#">Settings</NavLink> 
           </NavItem>
-          
+
+          <NavItem>
+          <InputGroup className="input-prepend">
+                <InputGroupAddon addonType="prepend">
+                  <InputGroupText>
+                    <i className="fa fa-search"></i>
+                  </InputGroupText>
+                </InputGroupAddon>
+                <Input size="50" type="text" placeholder="Search..." />
+                <InputGroupAddon addonType="append">
+                  <Button color="info">Search</Button>
+                </InputGroupAddon>
+              </InputGroup>
+            
+            </NavItem>   
         </Nav>
         <Nav className="ml-auto" navbar>
           <NavItem className="d-md-down-none">
