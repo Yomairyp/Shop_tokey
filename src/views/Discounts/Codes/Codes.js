@@ -25,12 +25,12 @@ class Codes extends Component {
     
         <Card>
           <CardHeader>
-            <strong> Discount</strong>
+            <strong> Discount Codes</strong>
           </CardHeader>
           <CardBody>
             
             <Row className="align-items-center mt-3">
-            <button class="btn btn-primary">Add Discount Code</button>
+            <button class="btn btn-primary">Create Discount Code</button>
             
             </Row>
           </CardBody>
