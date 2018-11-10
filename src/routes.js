@@ -239,6 +239,15 @@ const Marketing = Loadable({
   loader: () => import('./views/Marketing'),
   loading: Loading,
 });
+const Codes = Loadable({
+  loader: () => import('./views/Discounts/Codes'),
+  loading: Loading,
+});
+
+const Automatic = Loadable({
+  loader: () => import('./views/Discounts/Automatic'),
+  loading: Loading,
+});
 
 
 
@@ -262,6 +271,9 @@ const routes = [
   { path: '/Report', name: 'Report', component: Report },
   { path: '/LiveView', name: 'LiveView', component: LiveView },
   { path: '/Marketing', name: 'Marketing', component: Marketing},
+  { path: '/Customer', name: 'Customer', component: Customer },
+  { path: '/Codes', name: 'Codes', component: Codes },
+  { path: '/Automatic', name: 'Automatic', component:Automatic},
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },

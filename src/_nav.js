@@ -96,17 +96,17 @@ export default {
     },
     {
       name: 'Discounts',
-      url: '/widgets',
+      url: '/Discounts',
       icon: 'icon-calculator',
     
       children: [
         {
           name: 'Codes',
-          url: '/notifications/alerts',
+          url: '/Codes',
         },
         {
           name: 'Automatic',
-          url: '/notifications/badges',
+          url: '/Automatic',
           badge: {
             variant: 'info',
             text: 'NEW',
