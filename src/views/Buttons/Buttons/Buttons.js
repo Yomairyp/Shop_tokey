@@ -38,7 +38,7 @@ class Buttons extends Component {
         </Card>
         <Card>
           <CardHeader>
-            <strong>Production Details/infomation</strong>
+            <strong>Product Image</strong>
           </CardHeader>
           <CardBody>
           

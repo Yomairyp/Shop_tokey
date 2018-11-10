@@ -168,7 +168,7 @@ const sparklineChartOpts = {
   },
 };
 
-// Main Chart
+
 
 //Random Numbers
 function random(min, max) {
@@ -347,8 +347,8 @@ class Dashboard extends Component {
                 <Row>
                     <Col>
                         <div>
-                         <button class="float-xl-left">Primary</button>
-                         <button >Primary</button>
+                         <button class="float-xl-left">All Channels</button>
+                         <button >Today</button>
                         </div>
                         <div>
                         <strong>
