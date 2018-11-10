@@ -134,21 +134,12 @@ export default {
           url: '/register',
           icon: 'icon-star',
         },
-        {
-          name: 'Error 404',
-          url: '/404',
-          icon: 'icon-star',
-        },
-        {
-          name: 'Error 500',
-          url: '/500',
-          icon: 'icon-star',
-        },
+        
       ],
     },
     {
       name: 'Online Store',
-      url: '/dashboard',
+      url: '/ShopOnline',
       icon: 'icon-globe',
       
     },

@@ -1,0 +1,7 @@
+{
+    "name": "ShopOnline",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ShopOnline.js"
+  }
+  

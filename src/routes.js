@@ -248,6 +248,10 @@ const Automatic = Loadable({
   loader: () => import('./views/Discounts/Automatic'),
   loading: Loading,
 });
+const ShopOnline = Loadable({
+  loader: () => import('./views/ShopOnline'),
+  loading: Loading,
+});
 
 
 
@@ -274,6 +278,7 @@ const routes = [
   { path: '/Customer', name: 'Customer', component: Customer },
   { path: '/Codes', name: 'Codes', component: Codes },
   { path: '/Automatic', name: 'Automatic', component:Automatic},
+  { path: '/ShopOnline', name: 'ShopOnline', component: ShopOnline },
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
