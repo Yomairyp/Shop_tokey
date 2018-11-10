@@ -22,7 +22,7 @@ class Customer extends Component {
   render() {
     return (
       <div className="animated fadeIn">
-     
+    
         <Card>
           <CardHeader>
             <strong> Customers</strong>
@@ -30,34 +30,21 @@ class Customer extends Component {
           <CardBody>
             
             <Row className="align-items-center mt-3">
-            
+            <button class="btn btn-primary">Add Customer</button>
             
             </Row>
           </CardBody>
         </Card>
         <Card>
-          <CardHeader>
-            <strong>Product Description</strong>
-          </CardHeader>
-          <CardBody>
-            
-            <Row className="align-items-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            </Row>
-            <Row className="align-items-center mt-3">
-              
-            </Row>
-            <Row className="align-items-center mt-3">
-              
-            </Row>
-          </CardBody>
+         
+         
+          
         </Card>
         <Card>
           <CardHeader>
-            <strong>Product Image</strong>
+            <strong>Understand Your Customer</strong>
           </CardHeader>
+          <p>When a Customer Places an Order, You will find thier detail and history here</p>
           <CardBody>
           
            

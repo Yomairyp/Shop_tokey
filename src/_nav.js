@@ -44,26 +44,18 @@ export default {
         },
         {
           name: 'Garden',
-          url: '/',
+          url: '/Garden',
         },
       ],
     },
     {
-      name: 'Customer',
+      name: 'Customers',
       url: '/Customer',
       icon: 'icon-cursor',
       children: [
         {
-          name: 'Customer 1',
+          name: 'Customer ',
           url: '/Customer',
-        },
-        {
-          name: 'Customer 2',
-          url: '/buttons/button-dropdowns',
-        },
-        {
-          name: 'Customer 3',
-          url: '/buttons/button-groups',
         },
       ],
     },
@@ -71,12 +63,12 @@ export default {
     {
       
       name: 'Analytics',
-      url: '/charts',
+      url: '/Board',
       icon: 'icon-chart',
       children: [
         {
           name: 'Dashboard',
-          url: '/icons/coreui-icons',
+          url: '/Board',
           badge: {
             variant: 'info',
             text: 'NEW',
@@ -84,11 +76,11 @@ export default {
         },
         {
           name: 'Reports',
-          url: '/icons/flags',
+          url: '/Report',
         },
         {
           name: 'Live Views',
-          url: '/icons/font-awesome',
+          url: '/LiveView',
           badge: {
             variant: 'secondary',
             text: '4.7',
@@ -98,7 +90,7 @@ export default {
     },
     {
       name: 'Marketing',
-      url: '/notifications',
+      url: '/Marketing',
       icon: 'icon-bell',
       
     },

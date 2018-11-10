@@ -218,14 +218,30 @@ const Garden = Loadable({
 });
 
 
-
-
 const Customer = Loadable({
   loader: () => import('./views/Customer'),
-  // loader: () => import('./views/Products/Garden'),
-
   loading: Loading,
 });
+
+const Board = Loadable({
+  loader: () => import('./views/Analytics/Dashboard/Board'),
+  loading: Loading,
+});
+const Report = Loadable({
+  loader: () => import('./views/Analytics/Report'),
+  loading: Loading,
+});
+const LiveView = Loadable({
+  loader: () => import('./views/Analytics/LiveView'),
+  loading: Loading,
+});
+const Marketing = Loadable({
+  loader: () => import('./views/Marketing'),
+  loading: Loading,
+});
+
+
+
 
 
 
@@ -242,7 +258,10 @@ const routes = [
   { path: '/HomeItems', name: 'HomeItems', component: HomeItems },
   { path: '/Automobile', name: 'Automobile', component: Automobile },
   { path: '/Garden', name: 'Garden', component: Garden },
-  { path: '/Customer', name: 'Customers', component: Customer },
+  { path: '/Board', name: 'Board', component: Board },
+  { path: '/Report', name: 'Report', component: Report },
+  { path: '/LiveView', name: 'LiveView', component: LiveView },
+  { path: '/Marketing', name: 'Marketing', component: Marketing},
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
