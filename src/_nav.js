@@ -17,11 +17,11 @@ export default {
       children: [
         {
           name: 'All Orders',
-          url: '/orders/orders',
+          url: '/Order',
         },
         {
           name: 'Drafts',
-          url: '/orders/cards',
+          url: '/Drafts',
         },
         {
           name:'Pending checkouts',

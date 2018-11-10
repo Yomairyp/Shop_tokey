@@ -182,12 +182,26 @@ const User = Loadable({
   loading: Loading,
 });
 
+const Order = Loadable({
+  loader: () => import('./views/Order'),
+  loading: Loading,
+});
+
+const Drafts = Loadable({
+  loader: () => import('./views/Order/Drafts'),
+  loading: Loading,
+});
+
+
+
 
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
   { path: '/', exact: true, name: 'Home', component: DefaultLayout },
   { path: '/home', name: 'Home', component: Home },
+  { path: '/Order', name: 'Order', component: Order },
+  { path: '/Drafts', name: 'Drafts', component: Drafts },
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
