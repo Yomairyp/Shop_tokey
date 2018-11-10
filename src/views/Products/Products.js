@@ -21,7 +21,7 @@ const items = [
     },
   ];
   
-  class Drafts extends Component {
+  class Products extends Component {
   
     constructor(props) {
       super(props);
@@ -123,4 +123,4 @@ const items = [
     }
   }
   
-  export default Drafts;
+  export default Products;

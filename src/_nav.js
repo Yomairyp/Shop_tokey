@@ -25,26 +25,26 @@ export default {
         },
         {
           name:'Pending checkouts',
-          url: '/base/carousels',
+          url: '/Pending',
         },
       ],
     },
     {
       name: 'Products',
-      url: '/buttons',
+      url: '/Products',
       icon: 'icon-cursor',
       children: [
         {
-          name: 'Product 1',
-          url: '/buttons/buttons',
+          name: 'HomeItems',
+          url: '/HomeItems',
         },
         {
-          name: 'Product 2',
-          url: '/buttons/button-dropdowns',
+          name: 'Automobile',
+          url: '/Automobile',
         },
         {
-          name: 'Product 3',
-          url: '/buttons/button-groups',
+          name: 'Garden',
+          url: '/',
         },
       ],
     },
@@ -55,7 +55,7 @@ export default {
       children: [
         {
           name: 'Customer 1',
-          url: '/buttons/buttons',
+          url: '/Customers',
         },
         {
           name: 'Customer 2',

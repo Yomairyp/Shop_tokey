@@ -21,7 +21,7 @@ const items = [
     },
   ];
   
-  class Drafts extends Component {
+  class Pending extends Component {
   
     constructor(props) {
       super(props);
@@ -88,7 +88,7 @@ const items = [
             <Col xs="12" xl="6">
               <Card>
                 <CardHeader>
-                  <i className="fa fa-align-justify"></i><strong>Drafts</strong>
+                  <i className="fa fa-align-justify"></i><strong>Pending Checkouts</strong>
                   <div className="card-header-actions">
                     <a href="https://reactstrap.github.io/components/carousel/" rel="noreferrer noopener" target="_blank" className="card-header-action">
                       <small className="text-muted">docs</small>
@@ -105,7 +105,7 @@ const items = [
             <Col xs="12" xl="6">
               <Card>
                 <CardHeader>
-                  <i className="fa fa-align-justify"></i><strong>Drafts</strong>
+                  <i className="fa fa-align-justify"></i><strong>Pending Checkouts</strong>
                 </CardHeader>
                 <CardBody>
                   <Carousel activeIndex={activeIndex} next={this.next} previous={this.previous}>
@@ -123,4 +123,4 @@ const items = [
     }
   }
   
-  export default Drafts;
+  export default Pending;

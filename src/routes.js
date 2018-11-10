@@ -192,6 +192,31 @@ const Drafts = Loadable({
   loading: Loading,
 });
 
+const Pending = Loadable({
+  loader: () => import('./views/Order/Pending'),
+  loading: Loading,
+});
+
+const Products = Loadable({
+  loader: () => import('./views/Products'),
+  loading: Loading,
+});
+
+const HomeItems = Loadable({
+  loader: () => import('./views/Products/HomeItems'),
+  loading: Loading,
+});
+
+const Automobile = Loadable({
+  loader: () => import('./views/Products/Automobile'),
+  loading: Loading,
+});
+
+const Garden = Loadable({
+  loader: () => import('./views/Products/Garden'),
+  loading: Loading,
+});
+
 
 
 
@@ -202,6 +227,11 @@ const routes = [
   { path: '/home', name: 'Home', component: Home },
   { path: '/Order', name: 'Order', component: Order },
   { path: '/Drafts', name: 'Drafts', component: Drafts },
+  { path: '/Pending', name: 'Pending', component: Pending },
+  { path: '/Products', name: 'Products', component: Products },
+  { path: '/HomeItems', name: 'HomeItems', component: HomeItems },
+  { path: '/Automobile', name: 'Automobile', component: Automobile },
+  { path: '/Garden', name: 'Garden', component: Garden },
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
