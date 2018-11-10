@@ -50,12 +50,12 @@ export default {
     },
     {
       name: 'Customer',
-      url: '/buttons',
+      url: '/Customer',
       icon: 'icon-cursor',
       children: [
         {
           name: 'Customer 1',
-          url: '/Customers',
+          url: '/Customer',
         },
         {
           name: 'Customer 2',

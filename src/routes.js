@@ -220,6 +220,16 @@ const Garden = Loadable({
 
 
 
+const Customer = Loadable({
+  loader: () => import('./views/Customer'),
+  // loader: () => import('./views/Products/Garden'),
+
+  loading: Loading,
+});
+
+
+
+
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
@@ -232,6 +242,7 @@ const routes = [
   { path: '/HomeItems', name: 'HomeItems', component: HomeItems },
   { path: '/Automobile', name: 'Automobile', component: Automobile },
   { path: '/Garden', name: 'Garden', component: Garden },
+  { path: '/Customer', name: 'Customers', component: Customer },
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
